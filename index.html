@@ -1,0 +1,116 @@
+<html><head>
+	<title>MY SCHOOL</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"> Sirsansu Kaustav Dash</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#achievement">ACHIVEMENTS</a></li>
+        <li><a href="#campus">CAMPUS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+
+</nav>
+  
+<!--
+Start coding from here
+-->
+   <div class="container">
+     <h2 class="page-header" id="achievements">
+     <center>
+      <div class="travel_mainDiv">
+        <img src="trave1.jpeg">
+        <h4 class="text-capitalize"><kbd>DELHI PUBLIC SCHOOL KALINGA</kbd>
+        <hr>
+        <h5 class="text-success text-capitalize"></h5>
+        <p class="text-muted">DPS Kalinga is ranked as the Number 1 School in Odisha & Cuttack & Number 8 in the Top 20 CBSE schools in India by Education Today in the lndia School Merit Awards 2017. Executive Trustee, Sunaina Patro received the Award on behalf of DPS Kalinga at the India School Merit Awards held at Bangalore on 9th Dec 17. </p>
+      </div>
+     </center>
+
+
+     <h2 class="page-header" id="campus">campus life</h2>
+    <h4>delhi public school has a very big campus and well maintained decorum inside, inside the campus clinics are available and cafes too people and teachers always there to help you, libraries are there from where you can take books for free with a readers pass.</h4>
+    
+  <section id="contact">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.4963339764063!2d85.90119401471951!3d20.362415586363042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190b6ec13b870b%3A0xaa3bd54f8a980d41!2sDELHI%20PUBLIC%20SCHOOL%2C%20KALINGA!5e0!3m2!1sen!2sin!4v1658675066299!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <hr>
+    <img src="dps.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+    <h3>DELHI PUBLIC SCHOOL KALINGA</h3>
+        <div class="contact_1">
+
+           <a href="www.gmail.com/info@dpskalinga.edu.in?Subject=Hi">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;info@dpskalinga.edu.in</h5>
+            </a> 
+
+           <a href="https://www.instagram.com/team_dpsk/"> 
+               <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;team_dpsk</h5>
+            </a> 
+        </div>
+</section>
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
